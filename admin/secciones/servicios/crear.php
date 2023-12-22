@@ -15,7 +15,7 @@ if ($_POST) {
 
     $sentencia->execute();
 
-    $mensaje="Registro agregado";
+    $mensaje="Registro agregado.";
     header("Location:index.php?mensaje=",$mensaje);
 }
 

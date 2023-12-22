@@ -33,7 +33,7 @@ if($_POST){
     $sentencia->bindParam(":id", $txtID);
     $sentencia->execute();
     
-    $mensaje = "Registro modificado";
+    $mensaje = "Registro modificado.";
     header("Location: index.php?mensaje=" . urlencode($mensaje));
     exit(); // Detener la ejecución después de la redirección
 }
